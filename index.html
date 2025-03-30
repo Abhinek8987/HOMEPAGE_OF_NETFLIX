@@ -3,29 +3,34 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Netflix India - Watch TV Shows Online, Watch Movies Online</title>
     <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
 </head>
 <body>
-    <div class="container">
-        <h1>NETFLIX</h1>
-    </div>
-    <div class="sign">
-        <button>Sign In</button>
-    </div>
-    <center>
-        <div class="body">
-            <h3>Unlimited movies, TV shows and more</h3>
-            <p>Ready to watch? Enter your email to create or restart your membership.</p>
-            <input type="email" placeholder="Email id" size="50" required>
-            <br>
-            <br>
-            <button class="button" style="vertical-align:middle"><span>Get Started</span></button>
-            <!-- <p>
-                Watch anywhere. Cancel anytime.
-                
-                </p> -->
+    <header class="header">
+        <div class="header-top">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/0/08/Netflix_2015_logo.svg" alt="Netflix Logo" class="logo">
+            <div class="sign">
+                <button class="sign-in">Sign In</button>
+            </div>
         </div>
-    </center>
+        
+        <div class="hero">
+            <h1>Unlimited movies, TV shows and more.</h1>
+            <h2>Watch anywhere. Cancel anytime.</h2>
+            <p>Ready to watch? Enter your email to create or restart your membership.</p>
+            
+            <div class="email-form">
+                <input type="email" placeholder="Email address" required>
+                <button class="get-started">
+                    <span>Get Started</span>
+                    <svg viewBox="0 0 6 12" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M.61 1.312l.78-.624L5.64 6l-4.25 5.312-.78-.624L4.36 6z" fill="currentColor"></path>
+                    </svg>
+                </button>
+            </div>
+        </div>
+    </header>
 </body>
 </html>
