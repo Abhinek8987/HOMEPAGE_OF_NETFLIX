@@ -20,7 +20,7 @@ Check out the live version: **[Netflix Clone](https://abhinek8987.github.io/HOME
 - **CSS** – Styling and layout with responsiveness.  
 - **Google Fonts** – `Roboto` font for a sleek look.
 
-📸 Screenshots
+## 📸 Screenshots
 ![image](https://github.com/user-attachments/assets/23375cd0-5b2c-4a62-9369-28c9e15703f5)
 
     
